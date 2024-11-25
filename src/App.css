@@ -1,0 +1,48 @@
+#App {
+  overflow-x: hidden;
+  /* background: var(--main-bg); */
+  
+}
+
+
+
+:root {
+  --home-bg: rgba(255, 255, 255, 0.5);
+  --with-bg: rgba(15, 15, 15, 0.5);
+  --main-bg: #ffffff;
+  --white: #0f0f0f;
+  --text-color: #0f0f0f; /* Dark mode background */
+  --sub-bg: #0f0f0fdc;
+  --link-color: #ffd202;
+  --main-font: "Inter", sans-serif;
+  --main-padding: 0 5%;
+  --logo: "/newcclb.svg";
+  --pack-border: 2px solid var(--link-color);
+  --pack-color: white;
+  --pack-colorF: black;
+  --pack-btn-color: var(--link-color);
+  --hovpack-btn-color: #fff;
+  --hovpack-color: #ffd202;
+}
+
+[data-theme="dark"] {
+  --main-bg: #0f0f0f;
+  --text-color: #fff;
+  --logo: "/newccl.svg";
+  --white: #fff;
+  --home-bg: rgba(15, 15, 15, 0.5);
+  --with-bg: rgba(255, 255, 255, 0.5);
+  --pack-border:  1px solid var(--link-color);
+  /* --pack-color: linear-gradient(to bottom, #0005, #0005, rgb(255, 210, 2, 0.2)); */
+  --pack-color: #0f0f0f;
+  --pack-colorF: silver;
+  --pack-btn-color: var(--link-color);
+  --hovpack-btn-color: #fff;
+  --link-color: #ffd202;
+  /* --hovpack-color: #ffd202; */
+  /* --hovpack-color: linear-gradient(to bottom, #000, rgb(255, 210, 2, 0.5)); */
+  /* --main-color: #ffffff; Dark mode text color */
+  /* --link-color: #ffd202; Dark mode link color */
+}
+
+/* font-family: "Inter", sans-serif; */
