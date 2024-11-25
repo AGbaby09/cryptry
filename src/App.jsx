@@ -1,9 +1,9 @@
 import { useContext, useEffect, useState } from "react";
 import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Landing from "./pages/Landing/landing";
 import ContextVariables from "./context/ContextVariables";
 import CryptoDataTable from "./components/DaTAble/DaTAble";
+import Landing from "./pages/Landing/Lando";
 
 // import "bootstrap/dist/css/bootstrap.min.css";
 // import "bootstrap/dist/js/bootstrap.bundle.min.js";
